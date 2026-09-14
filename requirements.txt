@@ -1,0 +1,70 @@
+# Multi-Agent Research System
+# Python 3.10+ recommended
+#
+# Architecture:
+# - 2 research agents powered by Groq
+# - Tavily web search
+# - BeautifulSoup web extraction
+# - ReAct-style agents
+# - LangGraph orchestration
+# - CLI-based execution
+# - No LangChain Chains / LCEL chains required
+ 
+# -----------------------------
+# LLM / Agent Framework
+# -----------------------------
+langchain
+langgraph
+langchain-groq
+
+# -----------------------------
+# Research / Web Search
+# -----------------------------
+tavily-python
+beautifulsoup4
+requests
+httpx
+lxml
+
+# -----------------------------
+# Environment / Configuration
+# -----------------------------
+python-dotenv
+pydantic
+pydantic-settings
+
+# -----------------------------
+# CLI
+# -----------------------------
+typer
+rich
+
+# -----------------------------
+# Reliability / Utilities
+# -----------------------------
+tenacity
+
+# -----------------------------
+# Testing
+# -----------------------------
+pytest
+pytest-asyncio
+
+# -----------------------------
+# Optional: LangSmith
+# Uncomment if you want tracing/evaluation
+# -----------------------------
+# langsmith
+
+# -----------------------------
+# Optional: Async web fetching
+# Uncomment if needed
+# -----------------------------
+# aiohttp
+
+# -----------------------------
+# Optional: Data processing/export
+# Uncomment only if your project needs them
+# -----------------------------
+# pandas
+# openpyxl
